@@ -7,9 +7,50 @@ body {
   color: #ffffff;
   line-height: 1.6;
 }
+/* Showcase styling */
+#showcase {
+    margin: 0;
+    padding: 0;
+    background: url(../img/showcase2.jpg) no-repeat
+     center/cover;
+     width: 100%;
+     height:100vh;
+     position: relative;
+     overflow-y: hidden;
+
+}
+
+#showcase h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+#showcase h2 {
+    font-size: 2rem;
+
+}
+
+#showcase .container {
+    margin-top: 25vh;
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.lead {
+    font-size: 1.3rem;
+}
+
+/* Navigation styling */
 nav {
   height: 40px;
   width: 100%;
+  margin-bottom: 100px;
   background-color: #333;
   color: #eee;
   position: fixed;
@@ -39,6 +80,9 @@ nav a#openup {
 }
 
 @media screen and (max-width: 580px) {
+    .hide-on-small{
+        display:none;
+    }
   nav {
     height: auto;
     border-bottom: 0;
