@@ -17,6 +17,8 @@ body {
   color: #ffffff;
   line-height: 1.6;
 }
+
+
  /* utility */
 
  .md {
@@ -185,7 +187,6 @@ width: 100%;
 
 .video-head {
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 2rem;
     color: #ffffff;
 }
 
@@ -196,15 +197,82 @@ width: 100%;
 
 .video-text-light {
     font-family: 'PT Sans Narrow', sans-serif;
-    margin-top: 500px;
+    margin-top: 400px;
     color: #ffffff;
 }
 
 .video-button {
     margin-top: 50px;
     padding: 100px;
+    color: #ffffff;
 }
 
+/* Podcast Styling */
+#podcast {
+    background: url(../img/myTunes-podcast.jpg) no-repeat
+    center/cover;
+     width: 100%;
+     height:100vh;
+     position: relative;
+     overflow-y: hidden;
+
+}
+
+.podcast-head {
+
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #000000;
+}
+
+.podcast-lead {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #000000;
+}
+
+.podcast-button {
+    margin-top: 50px;
+    padding: 100px;
+    color: #ffffff;
+}
+
+/* Gift Card Styling */
+#gift-cards {
+    background: url(../img/myTunes-giftcard.jpg) no-repeat
+    center/cover;
+     width: 100%;
+     height:100vh;
+     position: relative;
+     overflow-y: hidden;
+
+}
+
+.podcast-head {
+
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #000000;
+}
+
+.podcast-lead {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #000000;
+}
+
+.giftcard-button {
+    margin-top: 50px;
+    padding: 100px;
+    color: #ffffff;
+}
+
+/*  footer  styling */
+
+#footer {
+    background-color:  #252529;
+    padding: 10px;
+}
+
+.copyright: {
+    color: #ffffff;
+}
 
 /* Navigation styling */
 nav {
@@ -214,6 +282,9 @@ nav {
   background-color: #333;
   color: #eee;
   position: fixed;
+  top: 0;
+  border-bottom: none;
+  z-index: 999;
 }
 nav ul {
   padding: 0;
@@ -234,6 +305,7 @@ nav a {
 }
 nav li:hover {
   background-color: #444;
+  text-decoration: none;
 }
 nav a#openup {
   display: none;
